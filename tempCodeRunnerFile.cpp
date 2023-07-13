@@ -1,10 +1,15 @@
 #include<iostream>
 using namespace std;
-int main ()
+int main()
 {
-    int i;
-    for(i=51;i<=99;i++)
+    int odd,n;
+
+    cout<<"enter a value";
+    cin>>n;
+
+    for(odd=1;odd<=n;odd+=2)
     {
-        cout<<" " <<i;
+        cout<<"" << odd;
     }
+
 }
