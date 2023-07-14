@@ -12,6 +12,7 @@ int main ()
         }
         else  cout << " " <<i*i;
     }
+    cout << " hello";
 }
 
 // 1,4,3,16,5,36,7,64......n
