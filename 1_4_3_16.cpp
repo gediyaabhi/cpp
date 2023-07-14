@@ -8,8 +8,10 @@ int main ()
     {
         if(i%2!=0)
         {
-            cout << i;
+            cout << " " << i;
         }
-        else  cout <<i*i;
+        else  cout << " " <<i*i;
     }
 }
+
+// 1,4,3,16,5,36,7,64......n
