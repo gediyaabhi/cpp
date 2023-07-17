@@ -5,13 +5,13 @@ class student {
     char sname[20];
     float eng,math,sci,total;
     public:
-    float ctotal ()
+    void ctotal ()
     {
         //cout << eng <<endl;
         total=eng+math+sci;
        
     }
-    float showdata()
+    void showdata()
     {
         cout << "admno \t name \tenglish maths \tscience total"<<endl;
         cout << admno;
@@ -21,7 +21,7 @@ class student {
         cout <<"\t" << sci; 
         cout <<"\t" << total;
     }
-    float tackdata()
+    void tackdata()
     {
         cout << " enter a admno";
         cin >> admno;
@@ -29,13 +29,10 @@ class student {
         cin >> sname;
         cout<< "enter english mark ";
         cin >> eng;
-
         cout<< "enter maths mark ";
         cin >> math;
-         
         cout<< "enter science mark ";
         cin >> sci;
-        
     }
 };
 
@@ -45,5 +42,4 @@ int main ()
     z.tackdata();
     z.ctotal();
     z.showdata();
-
 }
