@@ -1,49 +1,22 @@
 #include<iostream>
 using namespace std;
-class student {
-    int admno;
-    char sname[20];
-    float eng,math,sci,total;
+class batsman {
     public:
-    float ctotal ()
+    int bcode;
+    char bname[20];
+    int innings,notout,runs,batavg;
+    void calcavg()
     {
-        //cout << eng <<endl;
-        total=eng+math+sci;
-       
-    }
-    float showdata()
-    {
-        cout << "admno \t name \tenglish maths \tscience total"<<endl;
-        cout << admno;
-        cout <<"\t" << sname;
-        cout <<"\t" << eng;
-        cout <<"\t" << math;
-        cout <<"\t" << sci; 
-        cout <<"\t" << total;
-    }
-    float tackdata()
-    {
-        cout << " enter a admno";
-        cin >> admno;
-        cout << "enter a name "; 
-        cin >> sname;
-        cout<< "enter english mark ";
-        cin >> eng;
 
-        cout<< "enter maths mark ";
-        cin >> math;
-         
-        cout<< "enter science mark ";
-        cin >> sci;
-        
+    }
+    void readdata()
+    {
+        cout << "hii";
     }
 };
 
 int main ()
 {
-    student z;
-    z.tackdata();
-    z.ctotal();
-    z.showdata();
-
+    batsman z;
+    z.readdata();
 }
