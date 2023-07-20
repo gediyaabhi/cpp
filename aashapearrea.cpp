@@ -18,5 +18,5 @@ class area{
     }
 };
 int main(){
-    area r(2),b(3.0),l(20),lb(20,5),bh(2,10,8);
+    area r(2),b(3.1),l(20),lb(20,5),bh(2,10,8);
 }
