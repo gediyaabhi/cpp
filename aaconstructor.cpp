@@ -8,10 +8,10 @@ class test {
         cin >> m;
     }
 
-    // test (){
-    //     cout << "contructor is called m:"  <<endl;
-    //     cin >> m;
-    // }
+    // test(){
+    //      cout << "contructor is called m:"  <<endl;
+    //      cin >> m;
+    //  }
 };
 
 int main()

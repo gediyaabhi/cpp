@@ -13,7 +13,10 @@ class area{
     area (int l,int b){
         cout << "Area of rectangle  :" << l*b << endl;
     }
+    area (int a,int b,int h){
+        cout << "Area of triangle : " << b*h << endl;
+    }
 };
 int main(){
-    area r(2),b(3.0),l(20),lb(20,5);
+    area r(2),b(3.0),l(20),lb(20,5),bh(2,10,8);
 }
