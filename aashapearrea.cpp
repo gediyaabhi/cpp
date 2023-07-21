@@ -14,7 +14,7 @@ class area{
         cout << "Area of rectangle  :" << l*b << endl;
     }
     area (int a,int b,int h){
-        cout << "Area of triangle : " << b*h << endl;
+        cout << "Area of triangle : " << 2/b*h << endl;
     }
 };
 int main(){
