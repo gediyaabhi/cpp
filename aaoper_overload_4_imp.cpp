@@ -40,13 +40,13 @@ int main()
     cout << "Volume of B is :" << b.getdata() << endl;
 
     d.setdata(3,3,3);
-    cout << "Volume of B is :" << d.getdata() << endl;
+    cout << "Volume of D is :" << d.getdata() << endl;
 
     c=a+b;
     cout << "Volume of C is :" << c.getdata() <<endl;
 
     x=c-d;
-    cout << "Volume of C is :" << x.getdata() <<endl;
+    cout << "Volume of X is :" << x.getdata() <<endl;
 
 
 }
