@@ -22,14 +22,14 @@ class box{
 };
 int main()
 {
-    int a,b,c;
+    box a,b,c;
     a.setdata(2,2,2);
-    cout << "Volume of box A is :"<< a.getdata()<<endl;
+    cout << "Volume of box A is :" << a.getdata()<<endl;
 
     b.setdata(3,3,3);
     cout << "Volume of box B is :" << b.getdata() <<endl;
 
     c=a+b;
 
-    cout << "Volume of box C is :"<< c.getdata() <<endl;
+    cout << "Volume of box C is :" << c.getdata() <<endl;
 }

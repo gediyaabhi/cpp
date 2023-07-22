@@ -15,6 +15,7 @@ class volume{
         cout <<"volume of cylinder :" << 3.14*r*h <<endl;
     }
     void vlm(int b ,int h)
+    
     {
         cout<<"volume of prism :" << b*h <<endl;
     }
