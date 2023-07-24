@@ -6,27 +6,26 @@ class number
     public:
     void setdata(int a, int b)
     {
-        real = a , img =b;
+        real = a , img = b;
     }
     void getdata()
     {
-        cout << "Number is : " << real << "+" << img << "i" << endl;
+        cout << "Number is : " << real << "-" << img << "i" << endl;
     }
-    number operator--(int)
+    number operator--()
     {
         number t;
-        t.real = real--;
-        t.img = img--;
+        t.real = --real;
+        t.img = --img;
+        return t;
     }
-
 };
-int main()
+int main ()
 {
     number n,m;
     n.setdata(3,5);
     n.getdata();
-    
-    n--;
-    m=n;
+
+    m=--n;
     m.getdata();
 }

@@ -10,7 +10,7 @@ class number
     }
     void getdata()
     {
-        cout << "Number is : " << real << "+" << img << "i" << endl;
+        cout << "Number is : " << real << "-" << img << "i" << endl;
     }
     number operator--(int)
     {
