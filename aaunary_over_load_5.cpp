@@ -6,7 +6,7 @@ class number
     public:
     void setdata(int a, int b)
     {
-        real =a , img = b;
+        real = a , img = b;
     }
     void getdata ()
     {
