@@ -7,7 +7,6 @@ class large
     void setdata(int a , int b)
     {
         cin >> x >> y;
-        //x=a, y=b;
     }
     void getdata()
     {
@@ -35,7 +34,6 @@ int main ()
     large n;
     n.setdata(a,b);
     n.getdata();
-
 
     add(n);
 }
