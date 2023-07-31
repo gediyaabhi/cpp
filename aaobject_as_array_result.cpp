@@ -45,6 +45,4 @@ int main ()
     {
         a[i].getdata();
     }
-    
-    
 }
