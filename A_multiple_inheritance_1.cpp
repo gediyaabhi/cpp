@@ -1,26 +1,27 @@
+// square 
 #include<iostream>
 using namespace std;
-class base 
+class base
 {
     protected:
     int n;
     public:
     void setn()
     {
-        cout << "Enter N:";
+        cout << "Enter value of n:" << endl;
         cin >> n;
     }
 };
 class derived : public base
 {
+    int i;
     public:
-    int a=1,i;
+    
     void getdata()
     {
-        for(i=1;i<=n;i++)
+        for (i=1;i<=n;i++)
         {
-            a=a*i;
-            cout <<"Factorial of " << n <<"is:" << a << endl;
+            cout << (i*i) << "\t";
         }
     }
 };
@@ -30,4 +31,5 @@ int main ()
     derived d;
     d.setn();
     d.getdata();
+
 }
